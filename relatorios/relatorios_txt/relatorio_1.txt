@@ -17,5 +17,5 @@ MÉDIA DE ACERTOS: 27.1%
 
               Notas lançadas pelos professores              
 ------------------------------------------------------------
-→ O aluno ainda não enviou o projeto final.
+→ O aluno enviou o projeto final, mas está vazio.
 ============================================================
