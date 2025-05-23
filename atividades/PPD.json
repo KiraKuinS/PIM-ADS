@@ -1,0 +1,52 @@
+[
+    {
+        "pergunta": "O que é a LGPD?",
+        "alternativas": ["Lei de Garantia de Produtos Digitais", "Lei Geral de Proteção de Dados", "Lista Geral de Procedimentos Digitais", "Licença de Gerenciamento de Privacidade de Dados"],
+        "resposta_correta": 2
+    },
+    {
+        "pergunta": "Qual é o principal objetivo da LGPD?",
+        "alternativas": ["Incentivar o uso de dados", "Restringir o acesso à internet", "Proteger os dados pessoais dos cidadãos", "Controlar redes sociais"],
+        "resposta_correta": 3
+    },
+    {
+        "pergunta": "O que são dados pessoais sensíveis?",
+        "alternativas": ["Dados sobre redes sociais", "Dados com senha", "Informações sobre origem racial, religião ou saúde", "Dados criptografados"],
+        "resposta_correta": 3
+    },
+    {
+        "pergunta": "Qual entidade fiscaliza o cumprimento da LGPD no Brasil?",
+        "alternativas": ["ANVISA", "BACEN", "ANPD", "INSS"],
+        "resposta_correta": 3
+    },
+    {
+        "pergunta": "O que é consentimento na coleta de dados?",
+        "alternativas": ["Aprovação automática", "Decisão da empresa", "Autorização clara do titular dos dados", "Obrigação contratual"],
+        "resposta_correta": 3
+    },
+    {
+        "pergunta": "O que é tratamento de dados segundo a LGPD?",
+        "alternativas": ["Apenas coleta de dados", "Qualquer operação com dados pessoais", "Exclusão de dados", "Compartilhamento entre empresas"],
+        "resposta_correta": 2
+    },
+    {
+        "pergunta": "Quem é o 'titular' dos dados pessoais?",
+        "alternativas": ["O governo", "A empresa que armazena os dados", "A pessoa a quem os dados se referem", "O administrador do sistema"],
+        "resposta_correta": 3
+    },
+    {
+        "pergunta": "Qual é o direito do titular garantido pela LGPD?",
+        "alternativas": ["Alterar leis", "Excluir ou corrigir seus dados", "Vender dados pessoais", "Monitorar empresas"],
+        "resposta_correta": 2
+    },
+    {
+        "pergunta": "O que uma empresa deve fazer em caso de vazamento de dados?",
+        "alternativas": ["Ignorar o incidente", "Notificar a ANPD e os titulares afetados", "Apagar todos os dados", "Fechar o sistema"],
+        "resposta_correta": 2
+    },
+    {
+        "pergunta": "O que são medidas de segurança da informação?",
+        "alternativas": ["Senhas simples", "Uso de antivírus apenas", "Conjunto de ações para proteger dados", "Manter computadores desligados"],
+        "resposta_correta": 3
+    }
+]

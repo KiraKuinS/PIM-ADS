@@ -1,0 +1,39 @@
+************************************************************
+*                  AULA 2 — VARIÁVEIS                      *
+************************************************************
+
+📦 O que são Variáveis?
+------------------------------------------------------------
+Variáveis são caixinhas na memória do computador que guardam 
+informações. Essas informações podem ser alteradas durante 
+a execução do programa.
+
+📊 Tipos de Dados:
+------------------------------------------------------------
+- Texto (String) — "Olá", "Ana", "Curso"
+- Número Inteiro (int) — 5, -10, 100
+- Número Decimal (float) — 3.14, -7.5
+- Verdadeiro/Falso (boolean) — True, False
+
+🔧 Criando variáveis em Python:
+------------------------------------------------------------
+nome = "Carlos"
+idade = 25
+altura = 1.75
+estudante = True
+
+📌 Regras para nomear variáveis:
+- Começam com letra ou underline (_)
+- Não podem começar com número
+- Não usam espaços (use underline, ex.: nome_completo)
+
+✨ Entrada e Saída de Dados:
+------------------------------------------------------------
+nome = input("Digite seu nome: ")
+idade = int(input("Digite sua idade: "))
+
+print("Olá,", nome, "! Você tem", idade, "anos.")
+
+************************************************************
+*                    FIM DA AULA 2                         *
+************************************************************

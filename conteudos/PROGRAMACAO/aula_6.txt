@@ -1,0 +1,57 @@
+************************************************************
+*      AULA 6 — OPERADORES LÓGICOS E RELACIONAIS           *
+************************************************************
+
+🔗 Operadores Relacionais:
+------------------------------------------------------------
+São usados para comparar valores e produzir um resultado 
+booleano (True ou False).
+
+- ==  igual
+- !=  diferente
+- >   maior que
+- <   menor que
+- >=  maior ou igual
+- <=  menor ou igual
+
+🔗 Operadores Lógicos:
+------------------------------------------------------------
+Permitem combinar múltiplas condições.
+
+- and — E (ambas precisam ser verdadeiras)
+- or  — OU (pelo menos uma é verdadeira)
+- not — NÃO (inverte True para False ou vice-versa)
+
+✨ Exemplo com and:
+------------------------------------------------------------
+idade = 20
+tem_carteira = True
+
+if idade >= 18 and tem_carteira:
+    print("Pode dirigir!")
+else:
+    print("Não pode dirigir.")
+
+✨ Exemplo com or:
+------------------------------------------------------------
+feriado = True
+chuva = False
+
+if feriado or not chuva:
+    print("Vamos passear!")
+else:
+    print("Melhor ficar em casa.")
+
+✨ Exemplo completo:
+------------------------------------------------------------
+nota = 8
+frequencia = 75
+
+if nota >= 7 and frequencia >= 70:
+    print("Aprovado!")
+else:
+    print("Reprovado por nota ou frequência.")
+
+************************************************************
+*                    FIM DA AULA 6                         *
+************************************************************

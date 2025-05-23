@@ -1,0 +1,66 @@
+************************************************************
+*           AULA 3 — CONDICIONAIS (DECISÕES)               *
+************************************************************
+
+🔀 O que são Condicionais?
+------------------------------------------------------------
+São estruturas que permitem que o programa tome decisões com 
+base em uma condição. Se a condição for verdadeira, faz uma 
+coisa; se for falsa, faz outra.
+
+🧠 Por que usar?
+------------------------------------------------------------
+- Para verificar situações
+- Para criar diferentes caminhos de execução
+- Para responder a condições específicas do usuário
+
+⚙️ Sintaxe Básica:
+------------------------------------------------------------
+if condição:
+    # código se a condição for verdadeira
+else:
+    # código se a condição for falsa
+
+⚙️ Com mais de uma condição:
+------------------------------------------------------------
+if condição1:
+    # se condição1 for verdadeira
+elif condição2:
+    # se condição1 for falsa e condição2 for verdadeira
+else:
+    # se nenhuma das anteriores for verdadeira
+
+✨ Operadores Relacionais (comparação):
+------------------------------------------------------------
+- ==  igual
+- !=  diferente
+- >   maior que
+- <   menor que
+- >=  maior ou igual
+- <=  menor ou igual
+
+✨ Exemplo prático:
+------------------------------------------------------------
+idade = int(input("Digite sua idade: "))
+
+if idade >= 18:
+    print("Você é maior de idade.")
+elif idade >= 16:
+    print("Você é menor, mas pode votar.")
+else:
+    print("Você ainda não pode votar.")
+
+✨ Condições compostas:
+------------------------------------------------------------
+nota = float(input("Digite sua nota: "))
+
+if nota >= 7:
+    print("Aprovado!")
+elif nota >= 5:
+    print("Recuperação.")
+else:
+    print("Reprovado.")
+
+************************************************************
+*                    FIM DA AULA 3                         *
+************************************************************

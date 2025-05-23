@@ -1,0 +1,41 @@
+************************************************************
+*            AULA 1 — O QUE É PROGRAMAÇÃO?                 *
+************************************************************
+
+🧠 O que é Programação?
+------------------------------------------------------------
+Programar é dar instruções para que um computador execute 
+tarefas. Assim como seguimos receitas de bolo, um programa 
+segue um conjunto de passos para alcançar um resultado.
+
+💡 O que é um Algoritmo?
+------------------------------------------------------------
+Um algoritmo é uma sequência de passos lógicos, organizados
+e finitos, que resolvem um problema ou executam uma tarefa.
+
+Exemplos de algoritmos do dia a dia:
+- Receita de bolo
+- Instruções de montagem de móveis
+- Rotina para escovar os dentes
+
+🔧 Por que aprender Programação?
+------------------------------------------------------------
+- Resolver problemas de forma lógica
+- Automatizar tarefas
+- Criar softwares, aplicativos e jogos
+- Desenvolver sites e sistemas
+
+📜 Conceitos básicos que veremos:
+------------------------------------------------------------
+- Variáveis (armazenam informações)
+- Entrada de dados (informações do usuário)
+- Saída de dados (mostrar informações)
+- Condicionais (tomada de decisão)
+- Laços de repetição (fazer algo várias vezes)
+- Funções (organizar e reaproveitar código)
+
+🚀 Na próxima aula começaremos a colocar a mão na massa!
+
+************************************************************
+*                    FIM DA AULA 1                         *
+************************************************************

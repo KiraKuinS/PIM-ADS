@@ -1,0 +1,162 @@
+[
+    {
+        "pergunta": "O que é um algoritmo?",
+        "alternativas": [
+            "Um tipo de programa",
+            "Uma sequência de passos para resolver um problema",
+            "Um erro no código",
+            "Um comando específico da linguagem"
+        ],
+        "resposta_correta": 2
+    },
+    {
+        "pergunta": "O que são variáveis em programação?",
+        "alternativas": [
+            "Nomes de funções",
+            "Palavras reservadas",
+            "Espaços na memória para armazenar dados",
+            "Tipos de erros no código"
+        ],
+        "resposta_correta": 3
+    },
+    {
+        "pergunta": "Qual destas é uma linguagem de programação?",
+        "alternativas": [
+            "HTML",
+            "CSS",
+            "Python",
+            "SQL"
+        ],
+        "resposta_correta": 3
+    },
+    {
+        "pergunta": "O que significa 'compilar' um programa?",
+        "alternativas": [
+            "Apagar o código",
+            "Traduzir o código para linguagem de máquina",
+            "Executar passo a passo",
+            "Corrigir automaticamente erros"
+        ],
+        "resposta_correta": 2
+    },
+    {
+        "pergunta": "Qual é a função de um loop (laço de repetição)?",
+        "alternativas": [
+            "Impedir a execução do programa",
+            "Repetir uma ação várias vezes",
+            "Eliminar variáveis",
+            "Testar condições uma única vez"
+        ],
+        "resposta_correta": 2
+    },
+    {
+        "pergunta": "O que é uma estrutura condicional?",
+        "alternativas": [
+            "Um tipo de variável",
+            "Um comando de repetição",
+            "Uma forma de fazer escolhas no código",
+            "Uma função matemática"
+        ],
+        "resposta_correta": 3
+    },
+    {
+        "pergunta": "Qual destas opções representa uma função em Python?",
+        "alternativas": [
+            "print()",
+            "loop{}",
+            "if-else",
+            "while:"
+        ],
+        "resposta_correta": 1
+    },
+    {
+        "pergunta": "Para que serve a instrução 'input()' em Python?",
+        "alternativas": [
+            "Mostrar dados na tela",
+            "Executar um loop",
+            "Ler dados do usuário",
+            "Declarar variáveis"
+        ],
+        "resposta_correta": 3
+    },
+    {
+        "pergunta": "Qual operador lógico representa 'e' (and) em Python?",
+        "alternativas": [
+            "&&",
+            "||",
+            "&",
+            "and"
+        ],
+        "resposta_correta": 4
+    },
+    {
+        "pergunta": "Qual dessas estruturas repete um bloco de código até uma condição ser falsa?",
+        "alternativas": [
+            "if",
+            "else",
+            "while",
+            "def"
+        ],
+        "resposta_correta": 3
+    },
+    {
+        "pergunta": "Qual é o tipo de dado usado para armazenar texto em programação?",
+        "alternativas": [
+            "int",
+            "float",
+            "string",
+            "bool"
+        ],
+        "resposta_correta": 3
+    },
+    {
+        "pergunta": "Qual comando em Python serve para receber dados do usuário?",
+        "alternativas": [
+            "print()",
+            "input()",
+            "if",
+            "for"
+        ],
+        "resposta_correta": 2
+    },
+    {
+        "pergunta": "Qual estrutura permite executar diferentes blocos de código dependendo de condições?",
+        "alternativas": [
+            "loop",
+            "condicional",
+            "função",
+            "variável"
+        ],
+        "resposta_correta": 2
+    },
+    {
+        "pergunta": "Qual laço de repetição em Python executa um bloco enquanto a condição for verdadeira?",
+        "alternativas": [
+            "for",
+            "while",
+            "if",
+            "def"
+        ],
+        "resposta_correta": 2
+    },
+    {
+        "pergunta": "Qual palavra-chave em Python define uma função?",
+        "alternativas": [
+            "function",
+            "def",
+            "func",
+            "define"
+        ],
+        "resposta_correta": 2
+    },
+    {
+        "pergunta": "O operador lógico 'and' em Python serve para:",
+        "alternativas": [
+            "Repetir ações",
+            "Testar se duas condições são verdadeiras",
+            "Negar uma condição",
+            "Testar se pelo menos uma condição é verdadeira"
+        ],
+        "resposta_correta": 2
+    }
+]

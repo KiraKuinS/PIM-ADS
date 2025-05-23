@@ -1,0 +1,60 @@
+************************************************************
+*           AULA 4 — LAÇOS DE REPETIÇÃO (LOOPS)            *
+************************************************************
+
+🔁 O que é um Loop?
+------------------------------------------------------------
+É uma estrutura que permite executar um bloco de código 
+várias vezes, automaticamente, até que uma condição seja 
+falsa ou um limite seja atingido.
+
+🧠 Por que usar loops?
+------------------------------------------------------------
+- Evitar repetição manual
+- Processar listas, dados, sequências
+- Automatizar tarefas
+
+🔄 Tipos de Loop em Python:
+------------------------------------------------------------
+1️⃣ FOR — repete um número definido de vezes.
+2️⃣ WHILE — repete enquanto uma condição for verdadeira.
+
+✨ Estrutura do FOR:
+------------------------------------------------------------
+for variável in range(início, fim, passo):
+    # código a ser repetido
+
+✨ Exemplo com FOR:
+------------------------------------------------------------
+for i in range(1, 6):
+    print("Contagem:", i)
+
+# Saída:
+# Contagem: 1
+# ...
+# Contagem: 5
+
+✨ Estrutura do WHILE:
+------------------------------------------------------------
+while condição:
+    # código a ser repetido
+
+✨ Exemplo com WHILE:
+------------------------------------------------------------
+senha = ""
+tentativas = 0
+
+while senha != "1234" and tentativas < 3:
+    senha = input("Digite a senha: ")
+    tentativas += 1
+
+if senha == "1234":
+    print("Acesso liberado!")
+else:
+    print("Acesso bloqueado. Tentativas excedidas.")
+
+🚨 Cuidado! Loops mal planejados podem rodar para sempre!
+
+************************************************************
+*                    FIM DA AULA 4                         *
+************************************************************

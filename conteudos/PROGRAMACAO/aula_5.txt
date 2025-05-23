@@ -1,0 +1,56 @@
+************************************************************
+*           AULA 5 — FUNÇÕES (REUTILIZANDO CÓDIGO)         *
+************************************************************
+
+🛠️ O que é uma Função?
+------------------------------------------------------------
+É um bloco de código que executa uma tarefa específica. 
+Funções ajudam a organizar, reaproveitar e deixar o código 
+mais limpo.
+
+🔧 Por que usar funções?
+------------------------------------------------------------
+- Organização do código
+- Reutilização (escreve uma vez, usa várias)
+- Facilita manutenção e entendimento
+
+✨ Sintaxe de uma função:
+------------------------------------------------------------
+def nome_da_funcao():
+    # código da função
+
+✨ Exemplo simples:
+------------------------------------------------------------
+def saudacao():
+    print("Olá! Seja bem-vindo(a) ao curso.")
+
+saudacao()
+
+✨ Funções com parâmetros:
+------------------------------------------------------------
+def somar(a, b):
+    resultado = a + b
+    print("Soma:", resultado)
+
+somar(5, 3)
+
+✨ Funções que retornam valores:
+------------------------------------------------------------
+def multiplicar(a, b):
+    return a * b
+
+resultado = multiplicar(4, 5)
+print("Resultado:", resultado)
+
+✨ Função dentro de loop:
+------------------------------------------------------------
+def contagem_regressiva(inicio):
+    for i in range(inicio, 0, -1):
+        print(i)
+    print("Tempo esgotado!")
+
+contagem_regressiva(5)
+
+************************************************************
+*                    FIM DA AULA 5                         *
+************************************************************
