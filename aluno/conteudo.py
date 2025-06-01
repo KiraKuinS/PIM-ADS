@@ -3,9 +3,14 @@ import shutil
 from util.limpar_tela import limpar_tela, pausar
 
 def exibir_conteudos():
-    pasta = "conteudos"
+    """
+    Exibe as matérias disponíveis e permite que o aluno visualize o conteúdo das aulas.
+    O aluno pode navegar pelas matérias, selecionar uma aula e, se desejar, baixar o conteúdo.
+    """
+    pasta = "conteudos"  # Diretório onde as matérias e aulas estão armazenadas
     while True:
         limpar_tela()
+        # Lista todas as pastas dentro da pasta "conteudos", que representam as matérias
         materias = [d for d in os.listdir(pasta) if os.path.isdir(os.path.join(pasta, d))]
         if not materias:
             print("Nenhuma matéria disponível.")
@@ -20,9 +25,11 @@ def exibir_conteudos():
         try:
             opc = int(input("Escolha a matéria: "))
             if opc == len(materias)+1:
-                break
+                break  # Volta ao menu do aluno
             materia_escolhida = materias[opc-1]
             caminho_materia = os.path.join(pasta, materia_escolhida)
+
+            # Lista todas as aulas disponíveis na matéria selecionada
             aulas = [f for f in os.listdir(caminho_materia) if f.endswith('.txt')]
             if not aulas:
                 print("Nenhuma aula disponível para essa matéria.")
@@ -43,7 +50,7 @@ def exibir_conteudos():
                     continue
                 opc_aula = int(opc_aula)
                 if opc_aula == len(aulas)+1:
-                    break
+                    break  # Volta para a lista de matérias
 
                 aula_escolhida = aulas[opc_aula-1]
                 caminho_aula = os.path.join(caminho_materia, aula_escolhida)
@@ -51,9 +58,12 @@ def exibir_conteudos():
                 print("-"*40)
                 print(f"Conteúdo da aula: {aula_escolhida.replace('.txt','').capitalize()}")
                 print("-"*40)
+                # Exibe o conteúdo da aula
                 with open(caminho_aula, "r", encoding="utf-8") as f:
                     print(f.read())
                 print("-"*40)
+
+                # Pergunta se o aluno deseja baixar o conteúdo da aula
                 baixar = input("Deseja baixar esta aula para sua pasta de Downloads? (s/n): ").strip().lower()
                 if baixar == "s":
                     pasta_downloads = os.path.join(os.path.expanduser("~"), "Downloads")

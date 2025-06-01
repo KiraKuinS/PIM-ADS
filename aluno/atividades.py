@@ -6,6 +6,10 @@ ARQUIVO_RELATORIO = "relatorios/respostas_alunos.json"
 
 
 def carregar_questoes(conteudo):
+    """
+    Carrega as questões de um conteúdo específico a partir de um arquivo JSON.
+    Retorna uma lista de questões.
+    """
     caminho_arquivo = f"atividades/{conteudo}.json"
     if not os.path.exists(caminho_arquivo):
         return []
@@ -14,6 +18,10 @@ def carregar_questoes(conteudo):
 
 
 def carregar_relatorio():
+    """
+    Carrega o relatório de atividades realizadas pelos alunos.
+    Retorna uma lista de atividades ou uma lista vazia se o arquivo não existir.
+    """
     if not os.path.exists(ARQUIVO_RELATORIO):
         return []
     try:
@@ -24,11 +32,18 @@ def carregar_relatorio():
 
 
 def salvar_relatorio(relatorio):
+    """
+    Salva o relatório de atividades realizadas pelos alunos em um arquivo JSON.
+    """
     with open(ARQUIVO_RELATORIO, 'w', encoding="utf-8") as f:
         json.dump(relatorio, f, indent=4)
 
 
 def mostrar_relatorio_por_materia(nome_usuario):
+    """
+    Exibe o desempenho do aluno em cada matéria com base no relatório.
+    Mostra a porcentagem de acertos por matéria.
+    """
     relatorio = carregar_relatorio()
     materias = {}
     for atividade in relatorio:
@@ -43,6 +58,10 @@ def mostrar_relatorio_por_materia(nome_usuario):
 
 
 def salvar_atividades(nome, total_questoes, acertos, conteudo):
+    """
+    Salva os resultados de uma atividade realizada pelo aluno no relatório.
+    Atualiza o relatório se a atividade já existir, caso contrário, adiciona uma nova entrada.
+    """
     data_hoje = datetime.date.today().isoformat()
     porcentagem = (acertos / total_questoes) * 100 if total_questoes > 0 else 0
 
@@ -74,6 +93,10 @@ def salvar_atividades(nome, total_questoes, acertos, conteudo):
 
 
 def fazer_atividades(nome_usuario, conteudo):
+    """
+    Permite que o aluno realize uma atividade de múltipla escolha.
+    Mostra as perguntas, verifica as respostas e salva os resultados no relatório.
+    """
     relatorio = carregar_relatorio()
     for atividade in relatorio:
         if atividade.get("nome") == nome_usuario and atividade.get("conteudo") == conteudo:
@@ -101,6 +124,10 @@ def fazer_atividades(nome_usuario, conteudo):
 
 
 def escolher_e_fazer_atividade(nome_usuario):
+    """
+    Permite que o aluno escolha uma atividade disponível e a realize.
+    Lista os conteúdos disponíveis e chama a função para realizar a atividade.
+    """
     conteudos = [f.replace('.json', '') for f in os.listdir("atividades") if f.endswith('.json')]
     
     if not conteudos:
@@ -121,6 +148,9 @@ def escolher_e_fazer_atividade(nome_usuario):
 
 
 def salvar_atividade(nome_usuario, conteudo, data, total_questoes, acertos, porcentagem):
+    """
+    Salva os resultados de uma atividade em um arquivo JSON específico para o aluno.
+    """
     caminho = f"relatorios/relatorios_txt/atividades_{nome_usuario}.json"
     nova_atividade = {
         "nome": nome_usuario,

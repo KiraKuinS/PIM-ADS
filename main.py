@@ -14,14 +14,14 @@ def main():
         print("1. Registrar")
         print("2. Login")
         print("3. Sair")
-        opcao = input("Escolha uma opção: ")
+        opcao = input("Escolha uma opção: ").strip()
 
         if opcao == "1":
             registrar_usuario()
         elif opcao == "2":
             usuario_logado = login()
             if usuario_logado:
-                with open(CAMINHO_ARQUIVO, 'r') as arquivo:
+                with open(CAMINHO_ARQUIVO, 'r', encoding="utf-8") as arquivo:
                     usuarios = json.load(arquivo)
                 nivel = usuarios[usuario_logado]["nivel"]
                 if nivel == "aluno":

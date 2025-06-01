@@ -1,7 +1,46 @@
 import os
 import json
 
+ARQUIVO_RELATORIO = "relatorios/respostas_alunos.json"
+
+def carregar_relatorio():
+    """
+    Carrega o relatório de atividades realizadas pelos alunos.
+    Retorna uma lista de atividades ou uma lista vazia se o arquivo não existir.
+    """
+    if not os.path.exists(ARQUIVO_RELATORIO):
+        return []
+    try:
+        with open(ARQUIVO_RELATORIO, 'r', encoding="utf-8") as f:
+            return json.load(f)
+    except json.JSONDecodeError:
+        return []
+
+def mostrar_relatorio_por_materia(nome_usuario):
+    """
+    Exibe o desempenho do aluno em cada matéria com base no relatório.
+    Mostra a porcentagem de acertos por matéria.
+    """
+    relatorio = carregar_relatorio()
+    materias = {}
+    for atividade in relatorio:
+        if atividade.get("nome") == nome_usuario and "conteudo" in atividade:
+            materias[atividade["conteudo"]] = atividade["porcentagem"]
+    if not materias:
+        print("Nenhuma atividade encontrada.")
+        return
+    print("\n=== Desempenho por matéria ===")
+    for materia, porcentagem in materias.items():
+        print(f"{materia.capitalize()}: {porcentagem}%")
+
 def gerar_relatorio_detalhado(nome_usuario):
+    """
+    Gera um relatório detalhado do desempenho do aluno, incluindo:
+    - Atividades realizadas
+    - Notas lançadas por professores
+    - Projeto final enviado
+    O relatório é salvo em um arquivo de texto específico para o aluno.
+    """
     caminho = f"relatorios/relatorios_txt/relatorio_{nome_usuario}.txt"
     caminho_nota = f"relatorios/relatorios_txt/nota_{nome_usuario}.json"
     caminho_projeto = f"relatorios/relatorios_txt/projeto_final_{nome_usuario}.txt"
@@ -14,11 +53,13 @@ def gerar_relatorio_detalhado(nome_usuario):
             todas = json.load(f_ativ)
             atividades = [a for a in todas if a.get("nome") == str(nome_usuario)]
 
+    # Cria o arquivo de relatório detalhado
     with open(caminho, "w", encoding="utf-8") as f:
         f.write("="*60 + "\n")
         f.write(f"{'RELATÓRIO DE DESEMPENHO DO ALUNO: ' + str(nome_usuario):^60}\n")
         f.write("="*60 + "\n\n")
 
+        # Seção de atividades realizadas
         f.write("| Matéria      |    Data    | Total | Acertos | % Acerto |\n")
         f.write("-"*60 + "\n")
         media_percentual = 0
@@ -37,9 +78,10 @@ def gerar_relatorio_detalhado(nome_usuario):
         f.write("-"*60 + "\n\n")
         f.write(f"MÉDIA DE ACERTOS: {media_percentual:.1f}%\n")
         f.write("="*60 + "\n\n")
+
+        # Seção de notas lançadas pelos professores
         f.write(f"{'SEÇÃO: NOTAS DOS PROFESSORES':^60}\n")
         f.write("="*60 + "\n\n")
-
         if os.path.exists(caminho_nota):
             with open(caminho_nota, "r", encoding="utf-8") as nf:
                 notas = json.load(nf)
@@ -61,8 +103,9 @@ def gerar_relatorio_detalhado(nome_usuario):
             f.write("Nenhuma nota lançada por professores ainda.\n")
             f.write("="*60 + "\n\n")
 
-        f.write(f"{'Notas lançadas pelos professores':^60}\n")
-        f.write("-"*60 + "\n")
+        # Seção do projeto final
+        f.write(f"{'SEÇÃO: PROJETO FINAL':^60}\n")
+        f.write("="*60 + "\n")
         if os.path.exists(caminho_projeto):
             with open(caminho_projeto, "r", encoding="utf-8") as pf:
                 projeto = pf.read().strip()
