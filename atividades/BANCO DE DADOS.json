@@ -1,0 +1,152 @@
+[
+  {
+    "pergunta": "O que é um banco de dados?",
+    "alternativas": [
+      "Um programa para editar imagens",
+      "Um sistema para armazenar dados organizados",
+      "Um tipo de software para escrever textos",
+      "Um aplicativo para navegar na internet"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "pergunta": "Qual comando SQL é usado para buscar dados em uma tabela?",
+    "alternativas": [
+      "INSERT",
+      "UPDATE",
+      "SELECT",
+      "DELETE"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "pergunta": "O que significa uma tabela em banco de dados?",
+    "alternativas": [
+      "Um documento de texto",
+      "Um conjunto de dados organizados em linhas e colunas",
+      "Um gráfico estatístico",
+      "Uma lista de comandos SQL"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "pergunta": "Qual é o papel da chave primária (PK) em uma tabela?",
+    "alternativas": [
+      "Armazenar grandes arquivos",
+      "Identificar unicamente cada registro",
+      "Organizar os comandos SQL",
+      "Definir o tipo de banco de dados"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "pergunta": "O que é uma chave estrangeira (FK)?",
+    "alternativas": [
+      "Um campo que referencia uma chave primária em outra tabela",
+      "Um tipo de banco de dados",
+      "Uma coluna que guarda números aleatórios",
+      "Um comando SQL para deletar dados"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "pergunta": "Qual tipo de relacionamento permite que um registro se relacione com vários registros?",
+    "alternativas": [
+      "1 para 1",
+      "1 para muitos",
+      "Muitos para 1",
+      "Muitos para muitos"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "pergunta": "Qual comando SQL insere novos dados em uma tabela?",
+    "alternativas": [
+      "SELECT",
+      "DELETE",
+      "INSERT INTO",
+      "UPDATE"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "pergunta": "Como você busca dados específicos usando SQL?",
+    "alternativas": [
+      "Usando WHERE para filtrar condições",
+      "Usando DELETE para selecionar",
+      "Usando INSERT para consultar",
+      "Usando JOIN para inserir"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "pergunta": "Qual dessas é a forma correta para representar uma linha em uma tabela?",
+    "alternativas": [
+      "Registro",
+      "Campo",
+      "Chave primária",
+      "Consulta SQL"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "pergunta": "Por que é importante planejar os campos de uma tabela antes de criá-la?",
+    "alternativas": [
+      "Para evitar erros de digitação no código",
+      "Para garantir que os dados armazenados estejam organizados e coerentes",
+      "Para deixar o banco de dados mais lento",
+      "Para evitar usar comandos SQL"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "pergunta": "Qual comando SQL atualiza dados existentes em uma tabela?",
+    "alternativas": [
+      "INSERT",
+      "UPDATE",
+      "DELETE",
+      "SELECT"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "pergunta": "O que significa 'integridade referencial' em bancos de dados?",
+    "alternativas": [
+      "Garantir que os dados em tabelas relacionadas estejam consistentes",
+      "Armazenar dados em arquivos separados",
+      "Criar backups automáticos",
+      "Melhorar a velocidade de consulta"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "pergunta": "Quando usar uma tabela intermediária no banco de dados?",
+    "alternativas": [
+      "Para armazenar dados temporários",
+      "Para relacionar tabelas em um relacionamento muitos para muitos",
+      "Para fazer backups",
+      "Para organizar consultas SQL"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "pergunta": "O que faz o comando DELETE em SQL?",
+    "alternativas": [
+      "Apaga registros de uma tabela",
+      "Insere novos registros",
+      "Busca dados na tabela",
+      "Atualiza dados existentes"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "pergunta": "Por que é importante testar os comandos SQL antes de usar em dados importantes?",
+    "alternativas": [
+      "Para evitar apagar ou modificar dados errados",
+      "Para deixar o banco de dados mais lento",
+      "Para confundir o usuário",
+      "Para economizar espaço no disco"
+    ],
+    "resposta_correta": 1
+  }
+]
