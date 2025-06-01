@@ -1,0 +1,34 @@
+************************************************************
+*            AULA 2 — PRINCIPAIS TAGS DE TEXTO             *
+************************************************************
+
+📝 Como criar textos com HTML?
+------------------------------------------------------------
+O HTML usa várias tags para organizar e formatar textos.
+
+📌 Tags importantes:
+------------------------------------------------------------
+<h1> até <h6> — Títulos de diferentes tamanhos  
+<p> — Parágrafos  
+<strong> — Texto em negrito  
+<em> — Texto em itálico  
+<br> — Quebra de linha  
+<hr> — Linha horizontal
+
+📘 Exemplo:
+------------------------------------------------------------
+<h1>Meu Título</h1>
+<p>Esse é um parágrafo.</p>
+<strong>Texto em negrito</strong>
+<em>Texto em itálico</em>
+
+⚠️ Importante:
+------------------------------------------------------------
+- <br> e <hr> não têm tag de fechamento.
+- Use <h1> apenas uma vez por página.
+
+🚀 Na próxima aula: links e imagens!
+
+************************************************************
+*                    FIM DA AULA 2                         *
+************************************************************

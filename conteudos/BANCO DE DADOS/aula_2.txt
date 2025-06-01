@@ -1,0 +1,32 @@
+************************************************************
+*               AULA 2 — PRINCIPAIS COMANDOS SQL           *
+************************************************************
+
+🔍 O que é SQL?
+------------------------------------------------------------
+- Linguagem usada para gerenciar bancos de dados relacionais.
+- Serve para criar, ler, atualizar e deletar dados (CRUD).
+
+💡 Comandos básicos:
+------------------------------------------------------------
+- SELECT: buscar dados
+- INSERT INTO: inserir dados
+- UPDATE: atualizar dados
+- DELETE: apagar dados
+
+Exemplo:
+SELECT * FROM clientes;
+
+📌 Boas práticas:
+------------------------------------------------------------
+✅ Use nomes claros para tabelas e campos
+✅ Termine os comandos com ponto e vírgula (;)
+✅ Teste comandos antes de usar em dados importantes
+
+🎯 Dica final:
+------------------------------------------------------------
+Pratique comandos simples para entender como o SQL manipula os dados.
+
+************************************************************
+*                    FIM DA AULA 2                         *
+************************************************************

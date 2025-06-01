@@ -1,0 +1,202 @@
+[
+    {
+        "pergunta": "O que significa 'Hello, World!'?",
+        "alternativas": [
+            "Adeus, Mundo!",
+            "Olá, Mundo!",
+            "Bom dia, Planeta!",
+            "Programando o mundo"
+        ],
+        "resposta_correta": 2
+    },
+    {
+        "pergunta": "Como se diz 'Eu sou um programador' em inglês?",
+        "alternativas": [
+            "I be a programmer",
+            "I is programmer",
+            "I am a programmer",
+            "I are programmer"
+        ],
+        "resposta_correta": 3
+    },
+    {
+        "pergunta": "Qual dessas palavras significa 'teclado' em inglês?",
+        "alternativas": [
+            "Mouse",
+            "Screen",
+            "Keyboard",
+            "Monitor"
+        ],
+        "resposta_correta": 3
+    },
+    {
+        "pergunta": "O que significa o comando 'print()' em inglês?",
+        "alternativas": [
+            "Imprimir na tela",
+            "Esconder dados",
+            "Receber entrada",
+            "Criar uma variável"
+        ],
+        "resposta_correta": 1
+    },
+    {
+        "pergunta": "O que a palavra 'input' significa em inglês?",
+        "alternativas": [
+            "Saída",
+            "Entrada",
+            "Impressão",
+            "Resultado"
+        ],
+        "resposta_correta": 2
+    },
+    {
+        "pergunta": "Qual a tradução de 'I love coding'?",
+        "alternativas": [
+            "Eu odeio codar",
+            "Eu amo codar",
+            "Eu sou programador",
+            "Codar é chato"
+        ],
+        "resposta_correta": 2
+    },
+    {
+        "pergunta": "A palavra 'bug' em inglês significa:",
+        "alternativas": [
+            "Função",
+            "Erro no código",
+            "Comando de saída",
+            "Comentário"
+        ],
+        "resposta_correta": 2
+    },
+    {
+        "pergunta": "Qual dessas palavras significa 'tela' em inglês?",
+        "alternativas": [
+            "Window",
+            "Screen",
+            "Table",
+            "Disk"
+        ],
+        "resposta_correta": 2
+    },
+    {
+        "pergunta": "Como se diz 'variável' em inglês?",
+        "alternativas": [
+            "Function",
+            "Loop",
+            "Condition",
+            "Variable"
+        ],
+        "resposta_correta": 4
+    },
+    {
+        "pergunta": "Qual é a tradução correta de 'The code is running'?",
+        "alternativas": [
+            "O código está apagando",
+            "O código está parando",
+            "O código está rodando",
+            "O código está errado"
+        ],
+        "resposta_correta": 3
+    },
+    {
+        "pergunta": "Como se diz 'condição' em inglês?",
+        "alternativas": [
+            "Condition",
+            "Loop",
+            "Error",
+            "String"
+        ],
+        "resposta_correta": 1
+    },
+    {
+        "pergunta": "O que significa 'error' em inglês?",
+        "alternativas": [
+            "Acerto",
+            "Função",
+            "Erro",
+            "Comando"
+        ],
+        "resposta_correta": 3
+    },
+    {
+        "pergunta": "Qual a tradução de 'This is a string'?",
+        "alternativas": [
+            "Isso é um número",
+            "Isso é um texto",
+            "Isso é uma função",
+            "Isso é uma variável"
+        ],
+        "resposta_correta": 2
+    },
+    {
+        "pergunta": "A expressão 'Let's code!' significa:",
+        "alternativas": [
+            "Vamos dormir",
+            "Vamos correr",
+            "Vamos codar",
+            "Vamos apagar"
+        ],
+        "resposta_correta": 3
+    },
+    {
+        "pergunta": "Qual dessas palavras representa 'laço de repetição' em inglês?",
+        "alternativas": [
+            "Condition",
+            "Variable",
+            "Loop",
+            "Print"
+        ],
+        "resposta_correta": 3
+    },
+    {
+        "pergunta": "O que a função 'print(\"Name\")' faz?",
+        "alternativas": [
+            "Recebe um nome",
+            "Declara uma variável",
+            "Mostra a palavra Name na tela",
+            "Pede entrada do usuário"
+        ],
+        "resposta_correta": 3
+    },
+    {
+        "pergunta": "A palavra 'function' em inglês significa:",
+        "alternativas": [
+            "Comentário",
+            "Função",
+            "Erro",
+            "Variável"
+        ],
+        "resposta_correta": 2
+    },
+    {
+        "pergunta": "A frase 'This is my computer' significa:",
+        "alternativas": [
+            "Esse é o meu computador",
+            "Esse é meu mouse",
+            "Esse é o meu teclado",
+            "Esse é meu programa"
+        ],
+        "resposta_correta": 1
+    },
+    {
+        "pergunta": "Como se diz 'rodar o programa' em inglês?",
+        "alternativas": [
+            "Print the file",
+            "Compile the system",
+            "Run the program",
+            "Save the code"
+        ],
+        "resposta_correta": 3
+    },
+    {
+        "pergunta": "Qual dessas frases representa um comentário em Python?",
+        "alternativas": [
+            "print('Hello')",
+            "# This is a comment",
+            "def my_function():",
+            "input('Enter your name')"
+        ],
+        "resposta_correta": 2
+    }
+]

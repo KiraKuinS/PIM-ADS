@@ -1,0 +1,31 @@
+************************************************************
+*            AULA 1 — O QUE É PPD E LGPD?                  *
+************************************************************
+
+🧠 O que é PPD?
+------------------------------------------------------------
+PPD significa Pensamento Computacional, Programação e 
+Desenvolvimento. Envolve habilidades para resolver problemas,
+criar soluções tecnológicas e entender o funcionamento de 
+sistemas digitais.
+
+🛡️ O que é LGPD?
+------------------------------------------------------------
+LGPD é a Lei Geral de Proteção de Dados. Ela protege os 
+dados pessoais dos cidadãos no Brasil, garantindo privacidade,
+segurança e controle sobre as próprias informações.
+
+🔍 Por que a LGPD existe?
+------------------------------------------------------------
+- Proteger a privacidade das pessoas
+- Controlar o uso de dados pessoais por empresas e governos
+- Evitar vazamentos e uso indevido de informações
+
+📜 Dados protegidos pela LGPD:
+------------------------------------------------------------
+- Nome, CPF, RG, endereço
+- Dados sensíveis como religião, origem racial, saúde, etc.
+
+************************************************************
+*                    FIM DA AULA 1                         *
+************************************************************

@@ -1,0 +1,33 @@
+
+************************************************************
+*      AULA 4 — TRATAMENTO E SEGURANÇA DOS DADOS           *
+************************************************************
+
+🔧 O que é tratamento de dados?
+------------------------------------------------------------
+Qualquer ação feita com dados pessoais, como:
+- Coletar
+- Armazenar
+- Processar
+- Compartilhar
+- Excluir
+
+🛡️ Segurança da informação:
+------------------------------------------------------------
+Conjunto de práticas para proteger os dados contra:
+- Vazamentos
+- Acessos não autorizados
+- Perdas
+- Alterações indevidas
+
+🔐 Medidas de segurança:
+------------------------------------------------------------
+- Uso de senhas fortes
+- Criptografia
+- Backups
+- Controle de acesso
+- Firewall e antivírus
+
+************************************************************
+*                    FIM DA AULA 4                         *
+************************************************************

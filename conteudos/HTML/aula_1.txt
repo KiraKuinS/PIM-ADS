@@ -1,0 +1,45 @@
+************************************************************
+*                 AULA 1 — O QUE É HTML?                   *
+************************************************************
+
+🧠 O que é HTML?
+------------------------------------------------------------
+HTML significa HyperText Markup Language (Linguagem de 
+Marcação de Hipertexto). É a linguagem usada para criar 
+páginas da web.
+
+💡 Como funciona?
+------------------------------------------------------------
+O HTML estrutura o conteúdo de uma página — como textos, 
+imagens, links, tabelas e muito mais. Ele diz ao navegador 
+o que mostrar e em qual ordem.
+
+🧱 HTML é feito de "tags"
+------------------------------------------------------------
+Tags são comandos entre "< >" que marcam onde começa e 
+termina um elemento.
+
+Exemplo:
+<p>Esse é um parágrafo.</p>
+
+As tags geralmente vêm em pares:
+- Abertura: <p>
+- Fechamento: </p>
+
+📦 Exemplo simples de página:
+------------------------------------------------------------
+<html>
+  <head>
+    <title>Minha Página</title>
+  </head>
+  <body>
+    <h1>Olá, mundo!</h1>
+    <p>Essa é minha primeira página.</p>
+  </body>
+</html>
+
+🚀 Na próxima aula vamos conhecer as principais tags!
+
+************************************************************
+*                    FIM DA AULA 1                         *
+************************************************************

@@ -1,0 +1,35 @@
+************************************************************
+*        AULA 5 — ESTRUTURA DE UMA PÁGINA HTML             *
+************************************************************
+
+📦 Toda página HTML tem 2 partes principais:
+------------------------------------------------------------
+<html>
+  <head>...</head>
+  <body>...</body>
+</html>
+
+🧠 Explicação:
+------------------------------------------------------------
+- <html>: indica o início do código HTML.
+- <head>: parte “invisível” (título, configurações).
+- <body>: parte visível (conteúdo do site).
+
+🧾 Exemplo completo:
+------------------------------------------------------------
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Minha Primeira Página</title>
+  </head>
+  <body>
+    <h1>Bem-vindo!</h1>
+    <p>Aprendendo HTML do zero.</p>
+  </body>
+</html>
+
+🚀 Na próxima aula: boas práticas e comentários.
+
+************************************************************
+*                    FIM DA AULA 5                         *
+************************************************************

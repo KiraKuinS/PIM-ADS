@@ -1,0 +1,28 @@
+************************************************************
+*                AULA 3 — ESTRUTURA DE UMA TABELA           *
+************************************************************
+
+🧱 Como uma tabela é organizada?
+------------------------------------------------------------
+- Linhas (registros) representam dados individuais.
+- Colunas (campos) representam categorias de dados.
+
+📋 Exemplo simples de tabela "alunos":
+------------------------------------------------------------
+| id | nome      | idade | curso          |
+|----|-----------|-------|----------------|
+| 1  | Maria     | 20    | Enfermagem     |
+| 2  | João      | 22    | Análise de Dados|
+
+📌 Conceitos importantes:
+------------------------------------------------------------
+✅ Chave primária (PK): identifica unicamente cada registro
+✅ Tipo de dado: define o tipo da informação (ex: texto, número)
+
+🎯 Dica final:
+------------------------------------------------------------
+Antes de criar uma tabela, planeje quais dados serão armazenados.
+
+************************************************************
+*                    FIM DA AULA 3                         *
+************************************************************

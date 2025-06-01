@@ -1,0 +1,27 @@
+************************************************************
+*             AULA 1 — INTRODUÇÃO A BANCO DE DADOS          *
+************************************************************
+
+💾 O que é um banco de dados?
+------------------------------------------------------------
+- É um sistema para armazenar dados organizados.
+- Facilita guardar, buscar e manipular informações.
+
+🗃️ Tipos comuns de bancos de dados:
+------------------------------------------------------------
+- Relacional (ex: MySQL, PostgreSQL)
+- Não relacional ou NoSQL (ex: MongoDB)
+
+📌 Conceitos básicos:
+------------------------------------------------------------
+✅ Tabela: estrutura que guarda os dados em linhas e colunas
+✅ Registro (linha): uma entrada de dados na tabela
+✅ Campo (coluna): tipo de dado armazenado (ex: nome, idade)
+
+🎯 Dica final:
+------------------------------------------------------------
+Explore exemplos simples e visualize como os dados são organizados em tabelas!
+
+************************************************************
+*                    FIM DA AULA 1                         *
+************************************************************

@@ -1,0 +1,31 @@
+
+************************************************************
+*         AULA 3 — DIREITOS DOS TITULARES DE DADOS         *
+************************************************************
+
+👤 Quem é o titular dos dados?
+------------------------------------------------------------
+É a pessoa a quem os dados se referem.
+
+🎯 Quais são os direitos dos titulares?
+------------------------------------------------------------
+- Acessar seus dados
+- Corrigir informações incorretas
+- Excluir dados quando desejar
+- Revogar consentimento
+- Saber como e para que seus dados são usados
+- Solicitar portabilidade dos dados
+
+🛡️ Consentimento:
+------------------------------------------------------------
+O titular deve autorizar de forma clara o uso de seus dados.
+
+🏢 Obrigações das empresas:
+------------------------------------------------------------
+- Respeitar os direitos dos titulares
+- Atender solicitações rapidamente
+- Informar sobre coleta, uso e armazenamento de dados
+
+************************************************************
+*                    FIM DA AULA 3                         *
+************************************************************

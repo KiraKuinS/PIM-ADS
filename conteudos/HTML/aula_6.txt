@@ -1,0 +1,31 @@
+************************************************************
+*      AULA 6 — BOAS PRÁTICAS E COMENTÁRIOS EM HTML        *
+************************************************************
+
+🧽 Escrevendo um código limpo:
+------------------------------------------------------------
+- Indente (use espaços) para organizar visualmente.  
+- Use nomes de arquivos e pastas simples.  
+- Feche todas as tags corretamente.
+
+💬 Como fazer comentários?
+------------------------------------------------------------
+Comentários ajudam a entender o código, mas não aparecem na página.
+
+Exemplo:
+<!-- Isso é um comentário -->
+
+📌 Boas práticas:
+------------------------------------------------------------
+✅ Usar <!DOCTYPE html> no início  
+✅ Usar apenas uma tag <h1> por página  
+✅ Organizar o código com recuos (indentação)  
+✅ Sempre usar alt nas imagens
+
+🎯 Dica final:
+------------------------------------------------------------
+Treine criando páginas simples. Quanto mais praticar, mais fácil vai ficar!
+
+************************************************************
+*                    FIM DA AULA 6                         *
+************************************************************

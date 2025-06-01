@@ -1,0 +1,26 @@
+************************************************************
+*           AULA 4 — CHAVES PRIMÁRIAS E ESTRANGEIRAS       *
+************************************************************
+
+🔑 O que é chave primária (PK)?
+------------------------------------------------------------
+- Campo que identifica unicamente cada registro na tabela.
+- Exemplo: id, matrícula, CPF.
+
+🔗 O que é chave estrangeira (FK)?
+------------------------------------------------------------
+- Campo que referencia a chave primária de outra tabela.
+- Serve para relacionar tabelas diferentes.
+
+📌 Exemplo prático:
+------------------------------------------------------------
+Tabela "alunos" tem PK: id_aluno
+Tabela "matriculas" tem FK: id_aluno (referenciando alunos)
+
+🎯 Dica final:
+------------------------------------------------------------
+Use chaves para garantir integridade e evitar dados duplicados.
+
+************************************************************
+*                    FIM DA AULA 4                         *
+************************************************************

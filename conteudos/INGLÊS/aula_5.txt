@@ -1,0 +1,47 @@
+************************************************************
+*        AULA 5 — NÚMEROS E OPERADORES EM INGLÊS           *
+************************************************************
+
+🧠 Por que aprender isso?
+------------------------------------------------------------
+Programadores usam números e operadores o tempo todo: em cálculos, comparações e lógica de código.
+
+🔢 Números importantes:
+------------------------------------------------------------
+- 0 = zero
+- 1 = one
+- 2 = two
+- 10 = ten
+- 100 = one hundred
+- 1,000 = one thousand
+
+➕ Operadores comuns em programação:
+------------------------------------------------------------
+- + (plus) → soma
+- - (minus) → subtração
+- * (times ou asterisk) → multiplicação
+- / (divided by ou slash) → divisão
+- = (equals) → igual
+- == (double equals) → igual a (comparação)
+- != (not equal) → diferente
+- > (greater than) → maior que
+- < (less than) → menor que
+
+💡 Exemplos:
+------------------------------------------------------------
+- 5 + 3 = 8 → five plus three equals eight  
+- if (x != y) → se x for diferente de y  
+- 10 > 5 → ten is greater than five
+
+📜 Vocabulário da aula:
+------------------------------------------------------------
+- Equal = igual
+- Different = diferente
+- Greater = maior
+- Less = menor
+
+🚀 Na próxima aula, vamos aprender **dias e rotinas de um dev**.
+
+************************************************************
+*                    FIM DA AULA 5                         *
+************************************************************

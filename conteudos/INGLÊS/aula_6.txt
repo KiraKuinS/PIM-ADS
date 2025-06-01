@@ -1,0 +1,37 @@
+************************************************************
+*            AULA 6 — DIAS E ROTINA DE UM DEV              *
+************************************************************
+
+🧠 Por que aprender os dias da semana?
+------------------------------------------------------------
+Você vai marcar reuniões, prazos e estudar com base em dias da semana. A rotina de um dev muitas vezes segue sprints, tarefas diárias e reuniões.
+
+📅 Dias da semana em inglês:
+------------------------------------------------------------
+- Monday = segunda-feira
+- Tuesday = terça-feira
+- Wednesday = quarta-feira
+- Thursday = quinta-feira
+- Friday = sexta-feira
+- Saturday = sábado
+- Sunday = domingo
+
+🧑‍💻 Frases comuns na rotina de um programador:
+------------------------------------------------------------
+- I study JavaScript on Monday. (Eu estudo JavaScript na segunda.)  
+- We have a meeting on Tuesday. (Temos uma reunião na terça.)  
+- I deploy the code on Friday. (Eu faço o deploy do código na sexta.)  
+- I rest on Sunday. (Eu descanso no domingo.)
+
+📜 Vocabulário da aula:
+------------------------------------------------------------
+- Meeting = reunião
+- Code = código
+- Deploy = publicar (colocar no ar)
+- Rest = descansar
+
+🚀 Parabéns! Agora você sabe falar sobre dias, rotinas e tarefas de um programador em inglês!
+
+************************************************************
+*                    FIM DA AULA 6                         *
+************************************************************

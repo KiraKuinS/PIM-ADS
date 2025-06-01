@@ -1,0 +1,31 @@
+************************************************************
+*               AULA 6 — CONSULTAS SIMPLES COM SELECT       *
+************************************************************
+
+🔎 O que é SELECT?
+------------------------------------------------------------
+- Comando para buscar dados dentro de uma tabela.
+
+💡 Exemplos básicos:
+------------------------------------------------------------
+- Buscar todos os dados:
+SELECT * FROM alunos;
+
+- Buscar campos específicos:
+SELECT nome, idade FROM alunos;
+
+- Buscar com condição:
+SELECT * FROM alunos WHERE idade > 20;
+
+📌 Boas práticas:
+------------------------------------------------------------
+✅ Use WHERE para filtrar dados importantes
+✅ Sempre teste suas consultas para evitar erros
+
+🎯 Dica final:
+------------------------------------------------------------
+Pratique SELECT com diferentes condições para dominar as consultas!
+
+************************************************************
+*                    FIM DA AULA 6                         *
+************************************************************

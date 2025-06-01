@@ -1,0 +1,31 @@
+
+************************************************************
+*     AULA 5 — RESPONSABILIDADES E FISCALIZAÇÃO            *
+************************************************************
+
+🏢 Quem fiscaliza a LGPD?
+------------------------------------------------------------
+A ANPD — Autoridade Nacional de Proteção de Dados.
+
+🔍 O que faz a ANPD?
+------------------------------------------------------------
+- Fiscaliza o cumprimento da LGPD
+- Aplica sanções em caso de descumprimento
+- Orienta empresas e cidadãos sobre proteção de dados
+
+⚠️ Vazamento de dados:
+------------------------------------------------------------
+Se ocorrer, a empresa deve:
+- Notificar a ANPD
+- Informar os titulares afetados
+- Adotar medidas para reduzir os danos
+
+🚨 Penalidades:
+------------------------------------------------------------
+- Advertências
+- Multas
+- Suspensão do uso dos dados
+
+************************************************************
+*                    FIM DA AULA 5                         *
+************************************************************

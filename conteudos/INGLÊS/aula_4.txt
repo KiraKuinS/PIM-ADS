@@ -1,0 +1,27 @@
+************************************************************
+*            AULA 4 — CORES EM INGLÊS (NO CÓDIGO)          *
+************************************************************
+
+🧠 Por que aprender cores em inglês?
+------------------------------------------------------------
+As cores aparecem muito em programação, principalmente em design de sites, front-end e personalização de interfaces.
+
+🎨 Cores básicas usadas no código:
+------------------------------------------------------------
+- Red = vermelho
+- Blue = azul
+- Green = verde
+- Yellow = amarelo
+- Black = preto
+- White = branco
+- Gray = cinza
+
+💻 Exemplos em HTML/CSS:
+------------------------------------------------------------
+- background-color: red;  (cor de fundo vermelha)
+- color: white;           (cor do texto branca)
+- border: 1px solid black; (borda preta)
+
+💡 Dica:
+------------------------------------------------------------
+Os nomes das cores são usados exatamente as

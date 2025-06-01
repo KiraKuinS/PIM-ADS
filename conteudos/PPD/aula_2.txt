@@ -1,0 +1,33 @@
+
+************************************************************
+*            AULA 2 — DADOS PESSOAIS E SENSÍVEIS           *
+************************************************************
+
+🔐 O que são Dados Pessoais?
+------------------------------------------------------------
+Qualquer informação que possa identificar uma pessoa, como:
+- Nome
+- CPF
+- RG
+- E-mail
+- Endereço
+- Telefone
+
+⚠️ Dados Pessoais Sensíveis:
+------------------------------------------------------------
+São dados que, se vazados, podem causar discriminação, como:
+- Origem racial ou étnica
+- Religião
+- Opinião política
+- Dados de saúde
+- Vida sexual
+- Dados biométricos
+
+🛡️ Cuidados especiais:
+------------------------------------------------------------
+A LGPD exige mais proteção para dados sensíveis, com regras 
+específicas sobre coleta, armazenamento e uso.
+
+************************************************************
+*                    FIM DA AULA 2                         *
+************************************************************

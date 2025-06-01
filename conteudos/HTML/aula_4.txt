@@ -1,0 +1,40 @@
+************************************************************
+*             AULA 4 — LISTAS E TABELAS                    *
+************************************************************
+
+📋 Como criar listas?
+------------------------------------------------------------
+<ul> — Lista não ordenada (com marcadores)  
+<ol> — Lista ordenada (numerada)  
+<li> — Item da lista
+
+📘 Exemplo:
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+</ul>
+
+📊 Como criar tabelas?
+------------------------------------------------------------
+<table> — Define a tabela  
+<tr> — Linha  
+<th> — Cabeçalho  
+<td> — Célula de dados
+
+📘 Exemplo:
+<table>
+  <tr>
+    <th>Nome</th>
+    <th>Idade</th>
+  </tr>
+  <tr>
+    <td>João</td>
+    <td>25</td>
+  </tr>
+</table>
+
+🚀 Na próxima aula: estrutura padrão do HTML.
+
+************************************************************
+*                    FIM DA AULA 4                         *
+************************************************************

@@ -1,0 +1,34 @@
+************************************************************
+*             AULA 3 — LINKS E IMAGENS                     *
+************************************************************
+
+🌍 Como adicionar links?
+------------------------------------------------------------
+Use a tag <a> com o atributo href.
+
+Exemplo:
+<a href="https://google.com">Ir para o Google</a>
+
+🖼️ Como adicionar imagens?
+------------------------------------------------------------
+Use a tag <img> com os atributos src e alt.
+
+Exemplo:
+<img src="imagem.jpg" alt="Descrição da imagem">
+
+📌 Detalhes:
+------------------------------------------------------------
+- O atributo href define o destino do link.
+- O atributo src define o caminho da imagem.
+- O atributo alt é o texto alternativo (essencial para acessibilidade).
+
+🧪 Exemplo prático:
+------------------------------------------------------------
+<a href="https://meusite.com">Meu site</a><br>
+<img src="foto.png" alt="Minha Foto">
+
+🚀 Na próxima aula: listas e tabelas!
+
+************************************************************
+*                    FIM DA AULA 3                         *
+************************************************************

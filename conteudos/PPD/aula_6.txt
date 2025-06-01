@@ -1,0 +1,28 @@
+
+************************************************************
+*  AULA 6 — BOAS PRÁTICAS EM PROTEÇÃO DE DADOS E PRIVACIDADE*
+************************************************************
+
+🔒 Boas práticas para proteger dados:
+------------------------------------------------------------
+- Usar senhas fortes e seguras
+- Atualizar sistemas e softwares
+- Realizar backups frequentes
+- Ter antivírus e firewall ativos
+- Restringir acesso aos dados (apenas quem precisa)
+
+🛑 Sobre consentimento:
+------------------------------------------------------------
+- Sempre informar claramente por que os dados estão sendo 
+coletados e como serão usados.
+
+💡 Educação digital:
+------------------------------------------------------------
+- Orientar usuários e funcionários sobre riscos e proteção
+- Promover cultura de privacidade e segurança
+
+🚀 Proteção de dados é responsabilidade de todos!
+
+************************************************************
+*                    FIM DA AULA 6                         *
+************************************************************

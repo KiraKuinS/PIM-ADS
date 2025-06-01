@@ -1,0 +1,151 @@
+[
+  {
+    "pergunta": "O que significa HTML?",
+    "alternativas": [
+      "HyperTool Multi Language",
+      "HyperText Markup Language",
+      "HighText Machine Language",
+      "Home Tool Markup Language"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "pergunta": "Qual tag é usada para criar um parágrafo em HTML?",
+    "alternativas": [
+      "<h1>",
+      "<p>",
+      "<br>",
+      "<div>"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "pergunta": "Qual tag representa o maior título em HTML?",
+    "alternativas": [
+      "<title>",
+      "<h6>",
+      "<h1>",
+      "<head>"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "pergunta": "Qual dessas tags insere uma imagem na página?",
+    "alternativas": [
+      "<image>",
+      "<img>",
+      "<src>",
+      "<pic>"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "pergunta": "Qual atributo da tag <a> define o destino do link?",
+    "alternativas": [
+      "src",
+      "href",
+      "link",
+      "target"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "pergunta": "Qual tag define o conteúdo visível da página?",
+    "alternativas": [
+      "<html>",
+      "<body>",
+      "<head>",
+      "<div>"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "pergunta": "Qual dessas tags é usada para criar listas numeradas?",
+    "alternativas": [
+      "<ul>",
+      "<li>",
+      "<ol>",
+      "<list>"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "pergunta": "Qual é a tag correta para criar uma linha de tabela?",
+    "alternativas": [
+      "<tr>",
+      "<td>",
+      "<table>",
+      "<row>"
+    ],
+    "resposta_correta": 1
+  },
+  {
+    "pergunta": "Qual tag representa uma célula de dado em uma tabela?",
+    "alternativas": [
+      "<tr>",
+      "<td>",
+      "<th>",
+      "<cell>"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "pergunta": "Qual tag é usada para comentar no HTML?",
+    "alternativas": [
+      "// comentário",
+      "# comentário",
+      "<!-- comentário -->",
+      "/* comentário */"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "pergunta": "O que a tag <br> faz?",
+    "alternativas": [
+      "Inicia um parágrafo",
+      "Adiciona um botão",
+      "Insere uma quebra de linha",
+      "Cria uma nova página"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "pergunta": "Qual tag usamos para deixar o texto em negrito?",
+    "alternativas": [
+      "<b>",
+      "<bold>",
+      "<strong>",
+      "<negrito>"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "pergunta": "Onde deve ficar a tag <title>?",
+    "alternativas": [
+      "Dentro do <body>",
+      "Fora da tag <html>",
+      "Dentro do <head>",
+      "Entre <footer>"
+    ],
+    "resposta_correta": 3
+  },
+  {
+    "pergunta": "Qual dessas tags cria uma linha horizontal na página?",
+    "alternativas": [
+      "<line>",
+      "<hr>",
+      "<br>",
+      "<border>"
+    ],
+    "resposta_correta": 2
+  },
+  {
+    "pergunta": "Qual dessas estruturas é a correta de uma página HTML?",
+    "alternativas": [
+      "<html><body><head></head></body></html>",
+      "<html><head></head><body></body></html>",
+      "<head><html><body></body></html>",
+      "<body><html><head></head></body></html>"
+        ]
+      }
+    ]

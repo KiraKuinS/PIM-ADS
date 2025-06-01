@@ -1,0 +1,27 @@
+************************************************************
+*             AULA 5 — RELACIONAMENTOS ENTRE TABELAS        *
+************************************************************
+
+🔄 Tipos de relacionamentos:
+------------------------------------------------------------
+- 1 para 1: um registro relaciona-se com um único registro.
+- 1 para muitos: um registro relaciona-se com vários registros.
+- Muitos para muitos: vários registros relacionam-se com vários registros.
+
+📋 Exemplo:
+------------------------------------------------------------
+- Um aluno (tabela alunos) pode ter muitas matrículas (tabela matriculas).
+- Uma matrícula está ligada a um único aluno.
+
+📌 Como representar:
+------------------------------------------------------------
+- Use chave estrangeira para relacionar tabelas.
+- Em muitos para muitos, crie uma tabela intermediária.
+
+🎯 Dica final:
+------------------------------------------------------------
+Entender relacionamentos é fundamental para modelar dados corretamente.
+
+************************************************************
+*                    FIM DA AULA 5                         *
+************************************************************
